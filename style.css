@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.top-nav{
+    display: grid;
+    grid-template-columns: repeat(5, 150px);
+    grid-column-gap: -10px;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+
+.logo{
+    justify-items: start;
+
+}
+
+.mid-nav{
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    margin: 50px;
+}
+
+.sign-up-button{
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+}
+
+.check-in{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.input{
+    width: 400px;
+    height: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    color:crimson;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
